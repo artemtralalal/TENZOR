@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<program>
+  <header>
+    <applicationBuildName></applicationBuildName>
+    <applicationBuildNumber>0</applicationBuildNumber>
+    <applicationBuildType>signedRelease</applicationBuildType>
+    <applicationName>NewCatroid</applicationName>
+    <applicationVersion>2.2.0</applicationVersion>
+    <catrobatLanguageVersion>1.18</catrobatLanguageVersion>
+    <customResolution>false</customResolution>
+    <dateTimeUpload></dateTimeUpload>
+    <description></description>
+    <deviceName>25062PC34G</deviceName>
+    <gitRemoteUrl></gitRemoteUrl>
+    <isCastProject>false</isCastProject>
+    <landscapeMode>false</landscapeMode>
+    <listeningLanguageTag></listeningLanguageTag>
+    <mediaLicense></mediaLicense>
+    <notesAndCredits></notesAndCredits>
+    <physicsHeightArea>2.0</physicsHeightArea>
+    <physicsWidthArea>3.0</physicsWidthArea>
+    <platform>Android</platform>
+    <platformVersion>36</platformVersion>
+    <programLicense></programLicense>
+    <programName>TENZOR</programName>
+    <remixOf></remixOf>
+    <scenesEnabled>true</scenesEnabled>
+    <screenHeight>2080</screenHeight>
+    <screenMode>STRETCH</screenMode>
+    <screenWidth>1080</screenWidth>
+    <tags></tags>
+    <url></url>
+    <userHandle></userHandle>
+  </header>
+  <settings/>
+  <scenes>
+    <scene sceneId="5589dde7-0411-4ee9-be7e-d9700b17893b">
+      <name>Сцена</name>
+      <objectList>
+        <object type="Sprite" spriteId="15b930f8-b623-4aa1-9450-c65b8624eb65" name="Фон">
+          <lookList/>
+          <soundList/>
+          <scriptList>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="CreateWebFileBrick">
+                  <brickId>33707112-2f04-4b07-b8b6-66507ccc424f</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="POSY">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>0</value>
+                    </formula>
+                    <formula category="NAME">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>myWebView</value>
+                    </formula>
+                    <formula category="POSX">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>0</value>
+                    </formula>
+                    <formula category="HEIGHT">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>2000</value>
+                    </formula>
+                    <formula category="HTML">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;ru&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;UTF-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+&lt;title&gt;HyperOS Tensor Root&lt;/title&gt;
+&lt;style&gt;
+  * { margin: 0; padding: 0; box-sizing: border-box; font-family: &apos;Segoe UI&apos;, system-ui, sans-serif; }
+  body {
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .phone-frame {
+    width: 100%;
+    max-width: 380px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 32px;
+    padding: 24px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  }
+  .header {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .header h1 { font-size: 22px; font-weight: 700; letter-spacing: 1px; }
+  .badge {
+    display: inline-block;
+    background: rgba(255, 50, 50, 0.2);
+    color: #ff4d4d;
+    border: 1px solid rgba(255, 50, 50, 0.4);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 8px;
+    text-transform: uppercase;
+  }
+  .info-card {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 16px;
+    margin-bottom: 12px;
+    transition: transform 0.2s, background 0.2s;
+  }
+  .info-card:hover {
+    transform: translateY(-2px);
+    background: rgba(255, 255, 255, 0.12);
+  }
+  .info-label { font-size: 12px; color: rgba(255, 255, 255, 0.6); margin-bottom: 4px; }
+  .info-value { font-size: 16px; font-weight: 600; color: #fff; }
+  .accent { color: #a855f7; }
+  .root-status { color: #4ade80; }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;div class=&quot;phone-frame&quot;&gt;
+  &lt;div class=&quot;header&quot;&gt;
+    &lt;h1&gt;Xiaomi HyperOS&lt;/h1&gt;
+    &lt;div class=&quot;badge&quot;&gt;⚡ Root: Активирован&lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;info-card&quot;&gt;
+    &lt;div class=&quot;info-label&quot;&gt;Устройство&lt;/div&gt;
+    &lt;div class=&quot;info-value&quot;&gt;Xiaomi 14 Tensor Edition&lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;info-card&quot;&gt;
+    &lt;div class=&quot;info-label&quot;&gt;Процессор&lt;/div&gt;
+    &lt;div class=&quot;info-value accent&quot;&gt;Google Tensor G4&lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;info-card&quot;&gt;
+    &lt;div class=&quot;info-label&quot;&gt;Статус загрузчика&lt;/div&gt;
+    &lt;div class=&quot;info-value root-status&quot;&gt;Разблокирован (Magisk 27.0)&lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;info-card&quot;&gt;
+    &lt;div class=&quot;info-label&quot;&gt;Ядро&lt;/div&gt;
+    &lt;div class=&quot;info-value&quot;&gt;KernelSU 1.0 / Android 15&lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;info-card&quot;&gt;
+    &lt;div class=&quot;info-label&quot;&gt;Тема оформления&lt;/div&gt;
+    &lt;div class=&quot;info-value&quot;&gt;Glassmorphism Phonk&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</value>
+                    </formula>
+                    <formula category="WIDTH">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1100</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>d0be2b32-362b-4136-a81e-8496f2161ee0</scriptId>
+            </script>
+          </scriptList>
+          <nfcTagList/>
+          <userVariables/>
+          <userLists/>
+          <userDefinedBrickList/>
+        </object>
+      </objectList>
+    </scene>
+  </scenes>
+  <programVariableList/>
+  <programListOfLists/>
+  <programMultiplayerVariableList/>
+  <disableScientificNotation>false</disableScientificNotation>
+</program>
